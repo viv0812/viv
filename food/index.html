@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    function validateForm() {
+      let x = document.forms["myForm"]["fname"].value;
+      if (x == "") {
+        alert("Name must be filled out");
+        return false;
+      }
+      let y= document.forms["myForm"]["address"].value;
+      if (y== ""){
+        alert("Fill out the delivery address");
+        return false;
+      }
+    }
+    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="style1.css">
+  <title>food delivery</title>
+</head>
+<body>
+  <div class="home">
+
+  <section class="Home" id="Home">
+    <div class="homecontent">
+      <header>
+        <div class="head">Jully's food service
+           </div>
+      </header>
+      <div class="navi">
+        <ul>
+     <a href="#activeHome">Home</a>
+      <a href="#Menu">Menu</a>
+      <a href="#Order">Order</a>
+        </ul>
+      </div>
+      <p>Food - Our Love Language!!.. </p>
+      
+    </div>
+    
+  </section>
+  </div>
+  <section class="Menu" id="Menu">
+    <div class="men">
+      <header>
+       <p> Our Recipes,.,.</p>
+      </header>
+    </div>
+    <div class="men1">
+      <div class="men2">
+        <img src="burger.jpg" alt="">
+        <p>Lamb Burger</p>
+        <a href="#" class="btn">Add Item</a>
+      </div>
+      <div class="men2">
+        <img src="bread.jpg" alt="">
+        <p>Garlic Bread </p>
+        <a href="#" class="btn">Add Item</a>
+      </div>
+      <div class="men2">
+        <img src="fried chicken.jpg" alt="">
+        <p>Crispy Strips</p>
+        <a href="#" class="btn">Add Item</a>
+      </div>
+      <div class="men2">
+        <img src="noodles.jpg" alt="">
+        <p>Burmese Mohinga</p>
+        <a href="#" class="btn">Add Item</a>
+      </div>
+      <div class="men2">
+        <img src="pasta.jpg" alt="">
+        <p>Spegatti Pasta</p>
+        <a href="#" class="btn">Add Item</a>
+      </div>
+      <div class="men2">
+        <img src="sausage.jpg" alt="">
+        <p>Longaniza</p>
+        <a href="#" class="btn">Add Item</a>
+      </div>
+    </div>
+    <section class="Order" id="Order">
+      <div class="cnt1">
+      <div class="cnt">
+        <header>
+       <p> Order Now!@!</p>
+        </header>
+      </div>
+      <div class="cnt2">
+      <p>Hurry Up!****</p>
+      </div>
+      <div class="form">
+        <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        First Name:
+        <input type="text" placeholder="Vikram" name="fname"><br><br>
+        Last Name:
+        <input type="text" placeholder="C"><br><br>
+        E-Mail:
+        <input type="email" placeholder="email id@gmail.com"><br><br>
+        Phone Number:
+        <input type="text" placeholder="Contact Number" name="Number"><br><br>
+        Address:
+        <textarea placeholder="Address" name="Address" required name="address"> No:15, Jasmine street, Mumbai</textarea><br><br>
+          Mode Of Payment:<br>
+          <input type="radio" >Cash On Delivery<br>
+          <input type="radio"> UPI<br>
+          <input type="radio">Net Banking<br>
+          <input type="radio"> Wallet <br>
+          <input type="radio"> Gpay <br>
+          <br> <div class="submit">
+          <input type="submit" placeholder="Place Order">
+          </div>
+          
+          </form>
+      
+
+
+      </div>
+      </div>
+    </section>
+
+    <div class="foot">
+    <footer>
+        Jullys Food Service - All Rights Reserved @ 2021
+    </footer>
+    </div>
+  
+</body>
+</html>
