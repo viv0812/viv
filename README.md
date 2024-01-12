@@ -8,3 +8,5 @@
 
 FOOD DELIVERY WEBSITE USING HTML, CSS AND JAVASCRIPT
 ![Web capture_12-1-2024_102038_127 0 0 1](https://github.com/viv0812/viv/assets/154576071/c1ef6b5d-3fe6-4acb-9926-d6da98c3a543)
+![image](https://github.com/viv0812/viv/assets/154576071/9d9847a7-2a1a-4ced-8896-ac1fc882a180)
+
